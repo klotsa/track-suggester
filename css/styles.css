@@ -1,4 +1,4 @@
- #rubyrails, #drupal, #java, #csharp, #design, #rejection, #suggest {
+ #rubyrails, #drupal, #java, #csharp, #design, #rejection, #suggest, #thanks, #greeting {
    display: none;
 
  }
@@ -32,7 +32,7 @@ img {
   font-size: 1.5em;
 }
 
-.info, .info {
+.info, .thanks {
   font-family: Helvetica;
   font-size: 1.25em;
 
@@ -44,4 +44,8 @@ img {
 
 label {
   font-size: 1.25em;
+}
+
+.form-group{
+  margin: 30px;
 }
