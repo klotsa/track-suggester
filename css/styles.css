@@ -21,7 +21,6 @@
 }
 
 img {
-
   display: block;
   margin: auto;
   width: 50%;
@@ -35,7 +34,6 @@ img {
 .info, .thanks {
   font-family: Helvetica;
   font-size: 1.25em;
-
 }
 
 .jumbotron {
