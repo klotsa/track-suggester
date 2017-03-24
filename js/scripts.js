@@ -1,6 +1,14 @@
 $(document).ready(function() {
-  $("form#triangleSidesLength").submit(function(event) {
-    var q1 =
+  $("form#questions").submit(function(event) {
+    var q1 = $("select#q1").val();
+
+    if (q1 === "yes") {
+      $("#drupal").show();
+      $("#rubyrails").show();
+      $("#csharp").show();
+    } else {
+      $("#java").show();
+    }
     // var l1 = parseFloat($("input#firstside").val());
     // var l2 = parseFloat($("input#secondside").val());
     // var l3 = parseFloat($("input#thirdside").val());
