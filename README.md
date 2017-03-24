@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is anEpicodus Programming Path Selector. Designed to help individual interested in learning more about programing to figure out various learning paths offered by Epicodus.com. The site offers users 7 questions and based on their input suggest educational solutions_
+_This is an Epicodus Programming Path Selector. Designed to help individual interested in learning more about programing to figure out various learning paths offered by Epicodus.com. The site offers users 7 questions and based on their input suggest educational solutions_
 
 
 ## Setup/Installation Requirements
