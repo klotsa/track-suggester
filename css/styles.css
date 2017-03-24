@@ -31,3 +31,17 @@ img {
 .bg-primary {
   font-size: 1.5em;
 }
+
+.info, .info {
+  font-family: Helvetica;
+  font-size: 1.25em;
+
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+label {
+  font-size: 1.25em;
+}
