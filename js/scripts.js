@@ -6,14 +6,13 @@ $(document).ready(function() {
     var q4 = $("select#q4").val();
     var q5 = $("select#q5").val();
     var q6 = $("select#q6").val();
+    var q7 = $("select#q7").val();
 
       $("#suggest").show();
       $("#thanks").show();
 
-    if (q2 === "no" && q4 === "no") {
-      $("#java").show();
-      $("#design").show();
-      $("#rubyrails").show();
+    if (q1, q2, q3, q4, q5, q7 === "no") {
+      $("#rejection").show();
     } else if (q1 === "no" && q3 === "no") {
       $("#csharp").show();
       $("#drupal").show();
@@ -22,15 +21,15 @@ $(document).ready(function() {
       $("#java").show();
       $("#rubyrails").show();
       $("#csharp").show();
-    } else if (q1 === "no" && q2 === "no" && q3 === "no" && q4 === "no" && q5 === "no" && q6 === "yes") {
-    // } else if (q1 === "no" && q2 === "no" && q3 === "no" && q4 === "no" && q5 === "no") {
-      $("#rejection").show();
+    } else if (q2 === "no" && q4 === "no") {
+      $("#java").show();
+      $("#design").show();
+      $("#rubyrails").show();
     } else {
       $("#rubyrails").show();
       $("#java").show();
       $("#drupal").show();
     }
-
     event.preventDefault();
   });
 });
