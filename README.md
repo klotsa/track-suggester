@@ -1,12 +1,12 @@
 # __
 
-#### _Second week Epicodus projects, 3-24-2017_
+#### _Second week Epicodus project, 3-24-2017_
 
 #### By _A.Klots_
 
 ## Description
 
-_This is Epicodus Programming Path Selector. Designed to help individual interested in learning more about programing to figure out various learning paths offered by Epicodus.com. The site offers users 7 questions and based on their input suggest educational solutions_
+_This is anEpicodus Programming Path Selector. Designed to help individual interested in learning more about programing to figure out various learning paths offered by Epicodus.com. The site offers users 7 questions and based on their input suggest educational solutions_
 
 
 ## Setup/Installation Requirements
@@ -26,7 +26,7 @@ _https://klotsa.github.com_
 
 ## Technologies Used
 
-_Git, JS, jQuery, Bootstrap HTML and CSS_
+_Git, JS, jQuery, Bootstrap, HTML and CSS_
 
 ### License
 
