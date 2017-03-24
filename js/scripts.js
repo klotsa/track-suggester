@@ -2,12 +2,12 @@ $(document).ready(function() {
   $("form#questions").submit(function(event) {
     var q1 = $("select#q1").val();
 
-    if (q1 === "yes") {
-      $("#drupal").show();
+    if (q1 === "no" || q2 === "no") {
+      $("#design").show();
       $("#rubyrails").show();
-      $("#csharp").show();
-    } else {
       $("#java").show();
+    } else {
+      $("#rejection").show();
     }
     // var l1 = parseFloat($("input#firstside").val());
     // var l2 = parseFloat($("input#secondside").val());
