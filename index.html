@@ -11,29 +11,17 @@
   <body>
    <div class="container">
     <div class="jumbotron">
-      <img id="logo" src="https://static1.squarespace.com/static/5524448ee4b0d6f6b83ab9e2/t/57cf3de246c3c4d2933aa57c/1490296134976/?format=1500w" alt="logo">
+      <img id="logo" src="img/logo.png" alt="logo">
      <h1>Choose your programming path</h1>
-     <h2>Welcome to Epicodus!</h2>
-
+   </div>
+   <div id="text-container">
+     <h2 class="title">Welcome to Epicodus!</h2>
      <p class="intro">Now that <a href="https://www.epicodus.com">Epicodus</a> offers so many different courses, we often get students unsure of what to take after they finish Introduction to Programming. If you're an Epicodus student or anybody wondering which language to learn, the first thing you need to decide is if you want to focus more on front-end or back-end development. Front-end developers spend their time making things look and work well, obsessing over layouts, navigation, colors, and design. If this type of work appeals to you, your best bet is to take CSS and Design classes at Epicodus.</p>
      <p class="intro">If you're more interested in back-end development, you have several choices of languages: C#, Java, PHP, and Ruby are all offered at Epicodus. My best advice about how to choose is not to worry too much. Most modern programming languages have more similarities than differences, and Epicodus graduates often find themselves working in different languages than they studied in school. Back-end programmers often switch languages as they change jobs, or even as they build different types of software at the same job. So don't stress too much about making the right choice! That said, each language has found a bit of a niche, and depending on your interests, you might be attracted to one over another.</p>
-    <!-- </div>
-    !!!  <div class="group-form">
-        <form id="triangleSidesLength">
-        <label for="firstside">Enter first side length:</label>
-        <input id="firstside" type="number">
-        <label for="secondside">Enter second side length:</label>
-        <input id="secondside" type="number">
-        <label for="thirdside">Enter third side length:</label>
-        <input id="thirdside" type="number">
-        <br><br><br>
-        <button type="submit" class="btn">Choose my programming destiny!</button>
-      </form> -->
 
-      </div>
       <p class="info">Chooisng a learning path could be confusing. We suggest you filling a survey, and our sophisticated algorithm would provide you with a selection of the most appropriate programming languages reflecting your individual preferences and aspirations.</p>
-
-      <form id="questions">
+    </div>
+    <form id="questions">
         <label for="q1">Question 1: Do you care about the difference between the san serif fonts and refuse to communicate with a close family member who used Comic Sans in their email? </label><br>
         <select id="q1">
           <option value="yes">yes</option>
@@ -49,12 +37,12 @@
           <option value="yes">yes</option>
           <option value="no">no</option>
         </select><br><br>
-        <p><label for="q4">Question 4: You like gemstones and enjoy train rides?</label></p>
+        <p><label for="q4">Question 4: Like gemstones and enjoy train rides?</label></p>
         <select id="q4">
           <option value="yes">yes</option>
           <option value="no">no</option>
         </select><br><br>
-        <p><label for="q5">Question 5: Android is your entertaintment, companion, and life partner</label></p>
+        <p><label for="q5">Question 5: Android is your entertaintment hub, companion, and life partner</label></p>
         <select id="q5">
           <option value="yes">yes</option>
           <option value="no">no</option>
@@ -65,87 +53,38 @@
           <option value="no">i'm burdened with student loans</option>
         </select><br><br>
 
-        <button type="submit" class="btn">Choose my programming destiny!</button>
+        <button type="submit" class="btn bg-primary">Choose my programming destiny!</button>
       </form>
 
-
-
-
-      <!-- <div class="form-group">
-        <div class="radio">
-          <label for="q1">Question1:</label><br>
-          <label>
-            <input type="radio" name="q1" value="yes" checked>
-            yes
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="q1" value="no">
-            No
-          </label>
-        </div>
-        <button type="submit" class="btn">Choose my programming destiny!</button>
-      </div> -->
-
-
+      <div id="suggest">
+        <h2>We would suggest you taking the following languages:</h2>
+        <p class="info"><p>
+      </div>
       <div id="rubyrails">
         <h3>Ruby/Rails</h3>
         <p class="info">Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.<p>
       </div>
-
       <div id="drupal">
         <h3>PHP/Drupal</h3>
         <p class="info">PHP is most used in content-heavy websites with relatively little user interaction. The most popular content management systems - Wordpress, Drupal, and Joomla - are all written in PHP, and everything from local restaurants' websites up through large complex government deployments are built with these tools. If you're keen to work for an agency that builds websites for clients, or if you like the idea of building out sites for brands, businesses, and organizations, PHP is a great direction to go.<p>
       </div>
-
       <div id="java">
         <h3>Java/Android</h3>
         <p class="info">Java is also a favorite of enterprise companies, but its appeal is broader as well: it's one of the most popular of all programming languages, and it's used in everything from for high-performance processing to building Android user interfaces. Because Java has been very popular for a very long time and is used in so many applications, it is also a very high-demand language. If you're interested in working for an enterprise-level company, as an Android developer, or in high-performance applications, Java could be a good language to learn.<p>
       </div>
-
       <div id="csharp">
         <h3>C#/.NET</h3>
         <p class="info">C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.</p>
       </div>
-
       <div id="design">
         <h3>CSS/Design</h3>
-        <p class="info"><p>
-
+        <p class="info">After establishing solid programming fundamentals in CSS and JavaScript, this course introduces students to the vast world of Design. At Epicodus we know that tools change, but principles don’t. This course focuses on maintaining a strong balance between theory and practice. Students will not only cultivate a solid foundation of basic design principles, but will also gain experience using modern, industry-standard tools such as Sketch and InVision.<p>
       </div>
-
-      <!-- <div id="reconsider">
-        <h3>Maybe your should reconsider your decision...</h3>
-        <p class="info"><p>
-
-      </div> -->
-<!--
-
-      <div id="suggest">
-        <h3>We would suggest you taking the following languages:</h3>
-        <p class="info"><p>
-
-      </div>
-      <div id="also">
-        <h3>Also condsider</h3>
-        <p class="info"><p>
-
-      </div>
-
-      <div id="addition">
-        <h3>In addition, you may be interested</h3>
-        <p class="info"><p>
-
-      </div> -->
-
       <div id="rejection">
         <h3>You may want to reconsider being a coder</h3>
         <p class="info">Coding is not only fancy catered lunches and free massages on site in a fancy startup. It's a hard work, so if you are not ready to invest time and efforts you may want to choose a different career. Possibly being an activist will suit your right.<p>
         <img src="img/protest.jpg" alt="protest">
-
       </div>
-
     </div>
   </body>
 </html>

@@ -1,6 +1,5 @@
- #rubyrails, #drupal, #java, #csharp, #design, #rejection {
+ #rubyrails, #drupal, #java, #csharp, #design, #rejection, #suggest {
    display: none;
-
 
  }
 
@@ -17,6 +16,8 @@
   display: block;
   margin: auto;
   margin-top: 50px;
+  height: 30%;
+  width: 30%;
 }
 
 img {
@@ -25,4 +26,8 @@ img {
   margin: auto;
   width: 100%;
   height: 100%;
+}
+
+.bg-primary {
+  font-size: 1.5em;
 }

@@ -1,30 +1,38 @@
 $(document).ready(function() {
   $("form#questions").submit(function(event) {
     var q1 = $("select#q1").val();
+    var q2 = $("select#q2").val();
+    var q3 = $("select#q3").val();
+    var q4 = $("select#q4").val();
+    var q5 = $("select#q5").val();
+    var q6 = $("select#q6").val();
 
-    if (q1 === "no" || q2 === "no") {
+      $("#suggest").show();
+
+    if (q2 === "no" && q4 === "no") {
+
+      $("#java").show();
       $("#design").show();
       $("#rubyrails").show();
+
+    } else if (q1 === "no" && q3 === "no") {
+      $("#csharp").show();
+      $("#drupal").show();
       $("#java").show();
-    } else {
+    } else if (q1 === "no" && q5 === "no") {
+      $("#java").show();
+      $("#rubyrails").show();
+      $("#csharp").show();
+    } else if (q1 === "no" && q2 === "no" && q3 === "no" && q4 === "no"&& q5 === "no") {
       $("#rejection").show();
+    } else {
+
+      $("#rubyrails").show();
+
+      $("#java").show();
+      // $("#drupal").show();
     }
-    // var l1 = parseFloat($("input#firstside").val());
-    // var l2 = parseFloat($("input#secondside").val());
-    // var l3 = parseFloat($("input#thirdside").val());
-    // // debugger;
-    // if ( l1 + l2 <= l3 ||  l2 + l3 <=l1 || l3 + l1 <= l2 ) {
-    //   // alert("if 1 work");
-    //     $("#notTriangle").show();
-    // } else if ( l1 === l2 && l2 === l1 && l3 === l1 ){
-    //   // alert("if 2 work");
-    //     $("#equilateral").show();
-    // } else if (l1 != l2 && l2 != l3) {
-    //   // alert("if 3 work");
-    //     $("#scalene").show();
-    // } else {
-    //     $("#isosceles").show();
-    // }
+
     event.preventDefault();
   });
 });
