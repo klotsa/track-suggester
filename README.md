@@ -26,10 +26,10 @@ _https://klotsa.github.com_
 
 ## Technologies Used
 
-_Git, JS, jquery, Bootstrap HTML and CSS_
+_Git, JS, jQuery, Bootstrap HTML and CSS_
 
 ### License
 
 *MIT License*
 
-Copyright (c) 2017 **_Anatoliy_**
+Copyright (c) 2017  

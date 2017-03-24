@@ -1,7 +1,6 @@
  #rubyrails, #drupal, #java, #csharp, #design, #rejection, #suggest, #thanks, #greeting {
    display: none;
    margin:30px;
-
  }
 
 .label {
@@ -48,5 +47,5 @@ label {
 }
 
 .form-group{
-  margin: 30px;
+  margin-top, margin-bottom: : 40px;
 }
